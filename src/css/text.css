@@ -1,0 +1,31 @@
+
+.text2 {
+    @media (max-width: 768px) {
+        transform: translate(-60px, 45px);
+    }
+}
+.text3 {
+    @media (max-width: 768px) {
+        transform: translate(0px, 52px);
+    }
+}
+.text4 {
+    @media (max-width: 768px) {
+        transform: translate(-176px, 100px);
+    }
+}
+.text5 {
+    @media (max-width: 768px) {
+        transform: translate(-2px, 100px);
+    }
+}
+.text6 {
+    @media (max-width: 768px) {
+        transform: translate(-86px, 145px);
+    }
+}
+.text7 {
+    @media (max-width: 768px) {
+        transform: translate(0px, 148px);
+    }
+}

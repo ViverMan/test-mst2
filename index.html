@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test MST2</title>
+  </head>
+  <body>
+    <div class="svg-container">
+      <video class="video" autoplay loop muted>
+        <source src="./src/img/video/video.mp4" type="video/mp4" />
+      </video>
+      <svg viewBox="0 0 400 400">
+          <defs>
+              <mask id="mask">
+                  <rect class="rectMain" class="rect1" width="400" height="210" x="0" fill="#fff" />
+                  <rect class="rect2 rectMask" />
+                  <rect class="rect3 rectMask" />
+                  <rect class="rect4 rectMask" />
+                  <rect class="rect5 rectMask" />
+                  <rect class="rect6 rectMask" />
+                  <rect class="rect7 rectMask" />
+                  <rect class="rect8 rectMask" />
+              </mask>
+          </defs>
+          <rect class="rectMain" width="400" height="210" fill="#000" mask="url(#mask)" />
+          <text class="text1" x="10px" y="40px">
+              We're here
+          </text>
+          <text class="text2" x="285px" y="40px">
+              to make
+          </text>
+          <text class="text3" x="10px" y="80px">
+              healthy
+          </text>
+          <text class="text4" x="184px" y="80px">
+              living effortless
+          </text>
+          <text class="text5" x="10px" y="120px">
+              so you can
+          </text>
+          <text class="text6" x="250px" y="120px">
+              live longer
+          </text>
+          <text class="text7" x="10px" y="160px">
+              and happier
+          </text>
+      </svg>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

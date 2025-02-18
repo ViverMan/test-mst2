@@ -1,0 +1,87 @@
+.rectMain {
+    @media (max-width: 768px) {
+        width: 400px;
+        height: 100vh;
+    }
+}
+.rectMask {
+    fill: rgb(255, 0, 0);
+}
+.rect2 {
+    width: 120px;
+    height: 20px;
+    x: 155px;
+    y: 20px;
+    @media (max-width: 768px) {
+        width: 150px;
+        height: 30px;
+        x: 240px;
+        y: 10px;
+    }
+}
+.rect3 {
+    width: 60px;
+    height: 20px;
+    x: 115px;
+    y: 60px;
+    @media (max-width: 768px) {
+        width: 205px;
+        height: 30px;
+        x: 10px;
+        y: 57px;
+    }
+}
+.rect4 {
+    width: 88px;
+    height: 20px;
+    x: 155px;
+    y: 100px;
+    @media (max-width: 768px) {
+        width: 216px;
+        height: 30px;
+        x: 172px;
+        y: 105px;
+    }
+}
+.rect5 {
+    width: 220px;
+    height: 20px;
+    x: 170px;
+    y: 140px;
+    @media (max-width: 768px) {
+        width: 48px;
+        height: 30px;
+        x: 340px;
+        y: 150px;
+    }
+}
+.rect6 {
+    width: 147px;
+    height: 30px;
+    x: 240px;
+    y: 192px;
+    display: none;
+    @media (max-width: 768px) {
+        display: block;
+    }
+}
+.rect7 {
+    width: 147px;
+    height: 30px;
+    x: 10px;
+    y: 236px;
+    display: none;
+    @media (max-width: 768px) {
+        display: block;
+    }
+}
+.rect8 {
+    width: 127px;
+    height: 30px;
+    x: 260px;
+    y: 280px;
+    display: none;
+    @media (max-width: 768px) {
+        display: block;
+    }
+}
